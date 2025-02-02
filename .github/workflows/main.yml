@@ -1,12 +1,11 @@
-name: CI Action
-on:
-  push:
-    branches:
-      - main
+name: Example Workflow
+
+on: [push]
+
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
       - name: 22f1000901@ds.study.iitm.ac.in
-        run: echo "Action triggered!"
+        run: echo "Hello, world!"
 
