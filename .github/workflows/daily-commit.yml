@@ -14,7 +14,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Make Changes
-        run: echo "$(date)" > last_run.txt  # Updates last_run.txt with the current date/time
+        run: echo "$(date)" > last_run.txt  # Creates/updates a file with the current timestamp
 
       - name: Commit and Push Changes (22f1000901@ds.study.iitm.ac.in)
         run: |
